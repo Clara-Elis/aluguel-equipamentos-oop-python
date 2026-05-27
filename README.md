@@ -36,6 +36,8 @@ O objetivo do projeto é simular um sistema simples de locação de equipamentos
   - entradas inválidas
 
 ## Estrutura do projeto
+
+```text
 .
 ├── entidades/
 │   ├── cliente.py
@@ -46,11 +48,14 @@ O objetivo do projeto é simular um sistema simples de locação de equipamentos
 │   └── exceptions.py
 ├── menu_principal.py
 └── .gitignore
+```
 
 ## Como executar
 
 No terminal, dentro da pasta do projeto, execute:
-```python menu_principal.py```
+```bash 
+python menu_principal.py
+```
 
-```python``` executa o interpretador Python.
-```menu_principal.py``` é o arquivo principal do sistema.
+`python` executa o interpretador Python.
+`menu_principal.py` é o arquivo principal do sistema.
